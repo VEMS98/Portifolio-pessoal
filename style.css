@@ -1,13 +1,14 @@
 /* configuração da imagem de fundo */
 .bgimage {
     height:100vh;
-    background: url('images/heroImage.png');
+    background-color: #75a99c;
     background-size:cover;
     position:relative;
 }
 /* configuração do texto */
 .hero_title {
     font-size: 4.5rem;
+    color:#ffffff;
 }
 .hero_desc {
     font-size: 2rem;
@@ -24,7 +25,11 @@
 /* A imagem ocupará 100% do espaço disponível */
 .imageAboutPage {
     width: 100%;
+    border-radius: 60%;
+    
 }
+
+
 /* cada card com 280px de altura e apontador como seta do mouse */
 .servicesText.card {
     height: 280px;
@@ -80,7 +85,7 @@
 }
 /* cor padrão de fundo */
 #footer {
-    background-color: orangered;
+    background-color: #75a99c;
     text-align: center;
 }
 
@@ -92,3 +97,5 @@
 #contact {
     padding-bottom: 4rem;
 }
+
+
