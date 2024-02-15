@@ -74,7 +74,7 @@
 
 
 /* cor quando selecionado */
-.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover, bi bi-github:hover {
     color: grey;
 }
 
@@ -99,3 +99,8 @@
 }
 
 
+.git{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
