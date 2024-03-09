@@ -3,7 +3,7 @@
     height:100vh;
     background-color: #75a99c;
     background-size:cover;
-    position:relative;
+    
 }
 /* configuração do texto */
 .hero_title {
@@ -103,4 +103,30 @@
     text-decoration: none;
     color: black;
     font-size: larger;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li{
+    float: right;
+}
+
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #75a99c;
 }
