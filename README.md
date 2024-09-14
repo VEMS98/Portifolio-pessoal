@@ -1,4 +1,4 @@
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                                             |PARA ... `MOTIVO/VALOR`                 |
+|EU COMO... `PERSONA`| `                                             |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|--------------------------------------------------------------------------------|----------------------------------------|
 |Ex-aluno | ajudar estudantes de áreas diversas que estão com dificuldades nos estudos  | orientar e melhorar o desempenho acadêmico dos alunos. |
 |Aluno | participar de uma atividade extra que emita certificados  | cumprir os créditos necessários para concluir a graduação.  |
@@ -16,11 +16,4 @@
 
 
 
-Perfil 01: Jovens |
-: --- : | : --- |
-Descrição | Jovens que estão em busca do primeiro emprego.
-Necessidades | * Ferramenta de fácil acesso e intuitiva;
-* Site que seja gratuito;
-* Plataforma em que os requisitos necessários para um currículosejam apresentados;
-* Opção de download;
-* Opção de envio do currículo pronto para o e-mail do usuário
+
