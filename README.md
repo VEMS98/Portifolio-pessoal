@@ -2,13 +2,13 @@
  
 Perfil 01: jovens |
 :---: :---
-Descrição | Jovens que estão em busca do primeiro emprego.
+Descrição | Jovens que estão em busca do primeiro emprego.|
 Necessidades | 1 - Ferramenta de fácil acesso e intuitiva;
 2 - Site que seja gratuito;
 3 - Plataforma em que os requisitos necessários para um currículo
 sejam apresentados;
 4 - Opção de download;
-5 - Opção de envio do currículo pronto para o e-mail do usuário
+5 - Opção de envio do currículo pronto para o e-mail do usuário|
 
 Perfil 02: Dona de Casa |
 :---: :---
