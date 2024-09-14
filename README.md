@@ -1,4 +1,4 @@
-|EU COMO... `PERSONA`| `                                             |PARA ... `MOTIVO/VALOR`                 |
+|EU COMO... `PERSONA`|
 |--------------------|--------------------------------------------------------------------------------|----------------------------------------|
 |Ex-aluno | ajudar estudantes de áreas diversas que estão com dificuldades nos estudos  | orientar e melhorar o desempenho acadêmico dos alunos. |
 |Aluno | participar de uma atividade extra que emita certificados  | cumprir os créditos necessários para concluir a graduação.  |
