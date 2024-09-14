@@ -1,4 +1,4 @@
-|EU COMO... `PERSONA`|
+|EU COMO... `PERSONA`|          |
 |--------------------|--------------------------------------------------------------------------------|----------------------------------------|
 |Ex-aluno | ajudar estudantes de áreas diversas que estão com dificuldades nos estudos  | orientar e melhorar o desempenho acadêmico dos alunos. |
 |Aluno | participar de uma atividade extra que emita certificados  | cumprir os créditos necessários para concluir a graduação.  |
@@ -10,10 +10,6 @@
 |Aluno | consultar livros bem indicados por outros alunos   | ampliar meu conhecimento e conhecer pessoas com a mesma dificuldade. |
 |Ex-aluno | compartilhar com os outros estudantes conhecimentos, e assim poder ajudar uns aos outros  | conectar com alunos e até poder formar amizades e grupos de estudos. |
 |Aluno | aprender sobre conteúdos específicos da área com exemplos práticos e em mídias diferentes  | aplicar o conhecimento na prática.  |
-
-## Requisitos
-
-
 
 
 
