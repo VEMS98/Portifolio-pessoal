@@ -1,23 +1,15 @@
-# teste1609
- 
-Perfil 01: jovens |
-:---: :---
-Descrição | Jovens que estão em busca do primeiro emprego.|
-Necessidades | 1 - Ferramenta de fácil acesso e intuitiva;
-2 - Site que seja gratuito;
-3 - Plataforma em que os requisitos necessários para um currículo
-sejam apresentados;
-4 - Opção de download;
-5 - Opção de envio do currículo pronto para o e-mail do usuário|
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                                             |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|--------------------------------------------------------------------------------|----------------------------------------|
+|Ex-aluno | ajudar estudantes de áreas diversas que estão com dificuldades nos estudos  | orientar e melhorar o desempenho acadêmico dos alunos. |
+|Aluno | participar de uma atividade extra que emita certificados  | cumprir os créditos necessários para concluir a graduação.  |
+|Aluno|acessar os materiais complementares do curso de uma maneira mais fácil  | otimizar o tempo de estudo e entender melhor o conteúdo.  |
+|Aluno | sanar dúvidas que tenho sobre as matérias do curso com outros alunos ou ex-alunos   | entender melhor as matérias e criar uma rede de contatos. |
+|Ex-aluno | auxiliar estudantes que estejam iniciando na área  | ajudar alunos que apresentem dificuldades semelhantes às que já tive. |
+|Aluno |sanar todas as dúvidas de exercícios desde o início do curso | estar apto para as avaliações do primeiro semestre e assim não enfrentar maiores dificuldades ao longo do curso. |
+|Aluno |procurar livros que me ajudem a ter melhor compreensão da matéria  | encontrar livros sobre determinadas matérias que tenham uma boa didática para iniciantes.|
+|Aluno | consultar livros bem indicados por outros alunos   | ampliar meu conhecimento e conhecer pessoas com a mesma dificuldade. |
+|Ex-aluno | compartilhar com os outros estudantes conhecimentos, e assim poder ajudar uns aos outros  | conectar com alunos e até poder formar amizades e grupos de estudos. |
+|Aluno | aprender sobre conteúdos específicos da área com exemplos práticos e em mídias diferentes  | aplicar o conhecimento na prática.  |
 
-Perfil 02: Dona de Casa |
-:---: :---
-Descrição | Dona de casa que busca se recolocar no mercado de trabalho
-Necessidades | 1 - Ferramenta de fácil acesso;
-2 - Tutorial de como usar a plataforma;
-3 - Plataforma em que os requisitos necessários para um currículo
-sejam apresentados;
-4 - Elaboração um currículo rápido;
-5 - Necessidade de imprimir o documento
+## Requisitos
 
-Perfil 03: Tr
