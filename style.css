@@ -19,15 +19,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #333;
 }
 
-/* A imagem ocupará 100% do espaço disponível */
-.imageAboutPage {
-    width: 100%;
-    border-radius: 60%;
-    
-}
+
 
 
 /* cada card com 280px de altura e apontador como seta do mouse */
@@ -66,6 +61,7 @@
     background-color: black;
 }
 
+
 /* tamanho dos ícones */
 .social-icons {
     font-size: 36px;
@@ -98,4 +94,29 @@
     padding-bottom: 4rem;
 }
 
+
+#descricao{
+    display: flex;
+    align-items: center;
+}
+
+.social-links{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #333;
+    text-decoration: none;
+    margin: 30px 100px;
+    font-size:200%;
+    font-weight: bold;
+    
+}
+
+.icons-final{
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
 
