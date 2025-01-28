@@ -1,219 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Portfólio Victoria</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- linking css file -->
-  <link rel="stylesheet" href="style.css">
-  <!-- bootstrap CDN -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="shortcut icon" href="/images/cloud-coding.png" type="image/x-icon" />
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- font awesome -->
-  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
-</head>
+    <head>
+      <title>Portfólio Victoria</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- linking css file -->
+      <link rel="stylesheet" href="style.css">
+      <!-- bootstrap CDN -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="shortcut icon" href="/images/cloud-coding.png" type="image/x-icon" />
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+      <!-- font awesome -->
+      <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+      <script src="script.js" defer></script>
+    </head>
 
-<body>
-  <ul>
-    <li><a href="#contact">Contato</a></li>
-    <li><a href="#portfolio">Projetos</a></li>
-    <li><a href="#about">Sobre mim</a></li>
-    <li><a href="#home">Home</a></li>
-  </ul>
+   <body>
+      <nav class=" navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+            <div class="container">
+              <a  class="navbar-brand" href="#" >Victoria</a>
 
-<!-- main banner-->
-<section class="bgimage" id="home">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-        <h2 class="hero_title">Olá, eu sou a Victoria Silva</h2>
-        <p class="hero_desc">Sou uma Desenvolvedora Frontend de Juiz de Fora</p>
-      </div>
-    </div>
-  </div>
-</section>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
 
-<section id="about">
-  <div class="container mt-4 pt-4">
-    <h1 class="text-center">Sobre mim</h1>
-    <div class="row mt-4">
-      <div class="col-lg-4">
-        <img src="images/aboutme.jpg" class="imageAboutPage" alt="">
-      </div>
-      <div class="col-lg-8">
-        <p>Olá me chamo Victoria Silva, tenho 25 anos, sou formada em Direito, mas sempre gostei do mundo da tecnologia. 
-          E em 2023 pretendi começar a estudar programação, e foi na Codi Academy que inicie meu caminho na área de tecnologia, após finalizar o curso decidi fazer o curso de Sistemas de Informações.
-          Com o intuito de mostrar todos os projetos que faço ao longo do meu aprendizado, criei este portfólio.
-        </p>
-      <!--  <div class="row mt-3">
-          <div class="row md-6">
-            <ul>
-              <li>Nome: Victoria Silva</li>
-              <li>Idade: 25</li>
-              <li> Ocupação: X</li>
-            </ul>
-          </div>
-        </div>
-        <div class="row mt-3">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tristique nec nulla tincidunt fringilla.
-            Aliquam porttitor tincidunt nulla, id rutrum massa interdum sed. Mauris faucibus libero sed arcu cursus ornare.
-            Ut dapibus blandit scelerisque.
-          </p>
-        </div> -->
-      </div>
-    </div>
-  </div>
-</section>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                
+                <ul class="navbar-nav ms-auto">
 
- <section id="portfolio">
-  <div class="container mt-3">
-    <h1 class="text-center">Portfólio</h1>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#home" >Home</a>
+                  </li>
 
-    <div class="row">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about" >Sobre mim</a>
+                  </li>
+      
+                  <li class="nav-item">
+                  <a class="nav-link" href="#portfolio" >Portfólio</a>
+                  </li>
 
-      <div class="col-lg-4 mt-4">
-        <div class="card">
-          <img class="card-img-top" src="images/printtiktok.png" alt="" style="width: 100%;">
-          <div class="card-body">
-            <h4 class="card-title">Recriando o TikTok</h4>
-            <p>Recriando a rede social TikTok, com html, css e javascript.</p>
-              <div class="text-center">
-                <a href="https://funny-cactus-940b5b.netlify.app" class="btn btn-secondary">Link</a>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact" >Contato</a>
+                  </li>
+                </ul>
+
               </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 mt-4">
-        <div class="card">
-          <img class="card-img-top" src="images/portfolioImage2.png" alt="" style="width: 100%;">
-          <div class="card-body">
-            <h4 class="card-title">CodiFlix</h4>
-            <p>Clone da página inicial do usuário da Netflix, com html, css e javascript.</p>
-              <div class="text-center">
-                <a href="https://fancy-boba-667c12.netlify.app" class="btn btn-secondary">Link</a>
-              </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 mt-4">
-        <div class="card">
-          <img class="card-img-top" src="images/printplayer.png" alt="" style="width: 100%;">
-          <div class="card-body">
-            <h4 class="card-title">Player de música</h4>
-            <p>Player de música(igual o Spotify), usando html, css e javascript. </p>
-              <div class="text-center">
-                <a href="https://stellular-hotteok-f0bce1.netlify.app" class="btn btn-secondary">Link</a>
-              </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="row">
-
-      <div class="col-lg-4 mt-4">
-        <div class="card">
-          <img class="card-img-top" src="images/portfolioImage4.png" alt="" style="width: 100%;">
-          <div class="card-body">
-            <h4 class="card-title">Twitter Clone</h4>
-            <p>Recriação da página inicial da rede social Twitter.</p>
-              <div class="text-center">
-                <a href="https://gentle-pika-8c1fcf.netlify.app" class="btn btn-secondary">Link</a>
-              </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 mt-4">
-        <div class="card">
-          <img class="card-img-top" src="images/printdino.png" alt="" style="width: 100%;">
-          <div class="card-body">
-            <h4 class="card-title">Clone jogo Dino do Google</h4>
-            <p>Clone do jogo Dino do Google com javascript.</p>
-              <div class="text-center">
-                <a href="https://euphonious-bombolone-65cdf8.netlify.app" class="btn btn-secondary">Link</a>
-              </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 mt-4">
-        <div class="card">
-          <img class="card-img-top" src="images/portfolioImage6.jpg" alt="" style="width: 100%;">
-          <div class="card-body">
-            <h4 class="card-title">Outros projetos</h4>
-            <p>No Link abaixo está reunido mais projetos.<p>
-              <div class="text-center">
-                <a href="https://github.com/VEMS98" class="btn btn-secondary">Link</a>
-              </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-  </div>
- </section>
- 
-     <!-- contact section-->
-<section id="contact">
-  <div class="container mt-3 contactContent">
-      <h1 class="text-center">Contato</h1>
-
-
-      <div class="row mt-4">
-          <div class="col-lg-6">
-              <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
-              <div style="overflow:hidden;resize:none;max-width:100%;width:500px;height:500px;"><div id="embed-ded-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Juiz+de+Fora,+MG,+Brasil&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="googlecoder" rel="nofollow" href="https://www.bootstrapskins.com/themes" id="authorize-map-data">premium bootstrap themes</a><style>#embed-ded-map-canvas img{max-height:none;max-width:none!important;background:none!important;}</style></div>
-          </div>
-
-         <!-- <div class="col-lg-6">
-            form fields comentar essa parte dps
-                <form>
-                    <input type="text" class="form-control form-control-lg" placeholder="Nome">
-                    <input type="email" class="form-control mt-3" placeholder="E-mail">
-                    <input type="text" class="form-control mt-3" placeholder="Assunto">
-                    <div class="mb-3 mt-3">
-                        <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Conteúdo"></textarea>
-                    </div>
-                </form>
-                <button type="button" class="btn btn-secondary mt-3">Enviar</button>
-              
             </div>
-          -->
+          </nav>
 
-          <div class="col-lg-6">
-            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-            </svg>
-            <a href="https://github.com/VEMS98" class="git"><i class="bi bi-github"></i>GitHub</a>
-            
+            <!-- main banner-->
+            <section class="bgimage" id="home">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                    <h2 class="hero_title">Olá, eu sou a Victoria Silva</h2>
+                    <p class="hero_desc">Sou uma Desenvolvedora Frontend de Juiz de Fora</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+      <section id="about">
+        <div class="container mt-4 pt-4">
+          <h1 class="text-center">Sobre mim</h1>
+          <div class="row mt-4">
+            <div class="col-lg-2">
+            <!-- <img src="images/abaoutmenovo.jpg" class="imageAboutPage" alt="">--> 
+            </div>
+            <div class="col-lg-8">
+              <p id="descricao">Olá me chamo Victoria Silva, tenho 25 anos, sou formada em direito, mas sempre gostei do mundo da tecnologia. E em 2023 pretendi começar a estudar programação, e foi na Codi Academy que decidi me inscrever.
+                Com o intuito de mostrar todos os projetos que faço ao longo do meu aprendizado, criei este portfólio.
+              </p>
+            </div>
           </div>
-
-      </div>
-         </div>
+        </div>
       </section>
 
-      <!-- footer section-->
- <footer id="footer">
-  <div class="container-fluid">
-      <!-- social media icons -->
-      <div class="social-icons mt-4">
-          <a href="https://github.com/VEMS98"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-github" viewBox="0 0 16 16">
-            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-          </svg></a>
+      <section id="portfolio">
+            <div class="container mt-3">
+              <h1 class="text-center">Portfólio</h1>
+
+              <div class="row">
+
+                <div class="col-lg-4 mt-4">
+                  <div class="card">
+                    <img class="card-img-top" src="images/calculadoraimc.png" alt="" style="width: 100%;">
+                    <div class="card-body">
+                      <h4 class="card-title">Calculadora de IMC</h4>
+                      <p>Uma calculadora de IMC, usando HTML, CSS e Javascript</p>
+                        <div class="text-center">
+                          <a href="https://vems98.github.io/calculadoraImc/" class="btn btn-secondary">Link</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                  <div class="card">
+                    <img class="card-img-top" src="images/geradorqr.png" alt="" style="width: 100%;">
+                    <div class="card-body">
+                      <h4 class="card-title">Gerador de QR Code</h4>
+                      <p>Gera um QR Code quando o usuário insere um texto ou uma URL.</p>
+                        <div class="text-center">
+                          <a href="https://vems98.github.io/geradorQRCode/" class="btn btn-secondary">Link</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                  <div class="card">
+                    <img class="card-img-top" src="images/printplayer.png" alt="" style="width: 100%;">
+                    <div class="card-body">
+                      <h4 class="card-title">Player de música</h4>
+                      <p>Player de música(igual o Spotify), usando html, css e javascript. </p>
+                        <div class="text-center">
+                          <a href="https://stellular-hotteok-f0bce1.netlify.app" class="btn btn-secondary">Link</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="row">
+
+                <div class="col-lg-4 mt-4">
+                  <div class="card">
+                    <img class="card-img-top" src="images/tabuada.png" alt="" style="width: 100%;">
+                    <div class="card-body">
+                      <h4 class="card-title">Tabuada</h4>
+                      <p>O projeto tabuada foi feito para consolidar alguns conceitos de HTML, CSS e JavaScript.
+                        Com a ideia de gerar uma tabuada de qualquer número.</p>
+                        <div class="text-center">
+                          <a href="https://vems98.github.io/Tabuada/" class="btn btn-secondary">Link</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                  <div class="card">
+                    <img class="card-img-top" src="images/printdino.png" alt="" style="width: 100%;">
+                    <div class="card-body">
+                      <h4 class="card-title">Clone jogo Dino do Google</h4>
+                      <p>Clone do jogo Dino do Google com javascript.</p>
+                        <div class="text-center">
+                          <a href="https://euphonious-bombolone-65cdf8.netlify.app" class="btn btn-secondary">Link</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+
+                    <div class="col-lg-4 mt-4">
+                      <div class="card">
+                        <img class="card-img-top" src="images/portfolioImage6.jpg" alt="" style="width: 100%;">
+                        <div class="card-body">
+                          <h4 class="card-title">Outros projetos</h4>
+                          <p>No Link abaixo está reunido mais projetos.<p>
+                            <div class="text-center">
+                              <a href="https://github.com/VEMS98" class="btn btn-secondary">Link</a>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+          </section>
           
-      </div>
-  </div>
-</footer>
+          <!-- contact section-->
+          <section id="contact">
+              <div class="container mt-3 contactContent">
+                <h1 class="text-center">Contato</h1>
+              </div>
+              <div class="text-center">
+                <a class="social-links" href="https://www.linkedin.com/in/victoria-silva-883844245/" target="_blank">Linkedin</a>
+                <a class="social-links" href="https://github.com/VEMS98">Github</a>
+            </div>
+              
+          </section>
 
+            <!-- footer section-->
+          <footer id="footer">
+            <div class="container-fluid">
+              <!-- social media icons -->
+              <div class="social-icons mt-4">
+                <a href="https://www.linkedin.com/in/victoria-silva-883844245/"><img src="images/5282542_linkedin_network_social network_linkedin logo_icon.png" width="40px" alt=""></a>
+                <a href="https://github.com/VEMS98"><img src="images/github (1).png" width="40px" alt=""></a>
+              </div>
+          </div>
+      </footer>
 
-
-    <!-- load javascript after loading all html content -->
-  <script src="script/script.js"></script>
-</body>
+          
+      
+ </body>
 </html>
